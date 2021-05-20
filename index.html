@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Drum Set</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <h1>Beats</h1>
+        </div>
+        <nav>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Join</a>
+        </nav>
+    </div>
+    <div class="hero">
+        <h1>Beats</h1>
+    </div>
+    <div class="beats-wrapper">
+        <div data-beats="65" class="beats">
+            <p>A: Clap</p>
+        </div>
+        <div data-beats="83" class="beats">
+            <p>S: Hihat</p>
+        </div>
+        <div data-beats="68" class="beats">
+            <p>d: Kick</p>
+        </div>
+        <div data-beats="70" class="beats">
+            <p>f: Openhat</p>
+        </div>
+        <div data-beats="71" class="beats">
+            <p>g: Ride</p>
+        </div>
+        <div data-beats="90" class="beats">
+            <p>z: Snare</p>
+        </div>
+        <div data-beats="88" class="beats">
+            <p>x: Tink</p>
+        </div>
+        <div data-beats="67" class="beats">
+            <p>c: Tom</p>
+        </div>
+    </div>
+    
+    <audio src="./assets/audio/clap.wav" data-beats="65"></audio>
+    <audio src="./assets/audio/hihat.wav" data-beats="83"></audio>
+    <audio src="./assets/audio/kick.wav" data-beats="68"></audio>
+    <audio src="./assets/audio/openhat.wav"data-beats="70"></audio>
+    <audio src="./assets/audio/ride.wav"data-beats="71"></audio>
+    <audio src="./assets/audio/snare.wav" data-beats="90"></audio>
+    <audio src="./assets/audio/tink.wav" data-beats="88"></audio>
+    <audio src="./assets/audio/tom.wav" data-beats="67"></audio>
+
+<script src="./script.js"></script>
+</body>
+</html>
